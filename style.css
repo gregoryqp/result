@@ -1,0 +1,214 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#container {
+  width: 700px;
+  height: 450px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 15px 15px 30px hsl(241, 100%, 89%, 0.2);
+  display: flex;
+  flex-direction: row;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+#Result {
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%, 0.6);
+}
+#SummaryWindow {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  height: 100%;
+}
+#Circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#TextUnderCircle {
+  text-align: center;
+}
+#scoreOf {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px 20px;
+}
+#YouScored {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px 70px;
+}
+#Great {
+  font-weight: 600;
+  font-size: 25px;
+  color: hsl(0, 0%, 100%, 0.9);
+}
+#score {
+  font-weight: 600;
+  font-size: 55px;
+  color: hsl(0, 0%, 100%);
+  margin: 0 0 10px 0;
+}
+#YourResult {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#Summary {
+  margin: 40px 0 20px 0;
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  font-size: 18px;
+}
+#Reaction {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  border-radius: 7px;
+  color: hsl(0, 100%, 67%, 0.8);
+  font-weight: 600;
+}
+
+#Memory {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  border-radius: 7px;
+  color: hsl(39, 100%, 56%, 0.8);
+  font-weight: 600;
+}
+
+#Verbal {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  background-color: hsl(166, 100%, 37%, 0.1);
+  border-radius: 7px;
+  color: hsl(166, 100%, 37%, 0.8);
+  font-weight: 600;
+}
+
+#Visual {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  border-radius: 7px;
+  color: hsl(234, 85%, 45%, 0.8);
+  font-weight: 600;
+}
+.BoxPoint {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+  color: hsl(224, 30%, 27%, 0.4);
+  font-weight: 700;
+}
+.SkillsNameBox {
+  display: flex;
+  align-items: center;
+}
+.margines-miedzy-ikona-a-umiejetnoscia {
+  margin-left: 8px;
+}
+ul {
+  margin-right: 40px;
+}
+.ikony {
+  margin-left: 10px;
+}
+.BoxPoint p {
+  color: hsl(224, 30%, 27%);
+}
+#przycisk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(224, 30%, 27%);
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 35px;
+}
+#przycisk a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%, 0.8);
+  font-weight: 600;
+}
+#przycisk:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+@media only screen and (max-width: 374px) {
+  #container {
+    display: flex;
+    width: 375px;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 15px 15px 30px hsl(241, 100%, 89%, 0.2);
+    display: flex;
+    flex-direction: column;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+
+  #Result {
+    width: auto;
+    height: 100%;
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%, 0.6);
+  }
+  #SummaryWindow {
+    background-color: hsl(0, 0%, 100%);
+    width: auto;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  #YouScored {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px 70px 10px 70px;
+  }
+}
